@@ -3,8 +3,6 @@
 #include <ESPAsyncWebServer.h>
 #include <WebSocketsServer.h>
 #include <LiquidCrystal_I2C.h>
-#define WIFI_AP_NAME "N_ PONG2,4G"
-#define WIFI_AP_PASS "0982480837"
 LiquidCrystal_I2C lcd(0x27,20,4);
 AsyncWebServer server(80);
 WebSocketsServer webSocket = WebSocketsServer(81);
